@@ -1,4 +1,4 @@
-# REACT
+# REACT Découverte
 
 Faire *Avant de commencer* et *Bien démarrer* __avant__ la première séance de formation sur REACT (temps estimé : 4h).
 
