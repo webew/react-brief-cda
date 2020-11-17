@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Boilerplate</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <script type="text/babel">
+
+        const Liste = (props) => {
+            return ( // attention ici la parenthèse doit être sur la même ligne que l'instruction return
+                <React.Fragment>
+                    <ul>
+                        {/* <li>Elément 1</li> */}
+                        {props.showSecondItem && <li>Elément 2</li>}
+                        <li>Elément 3</li>
+                    </ul>
+                </React.Fragment>
+            )
+        }
+
+        ReactDOM.render(<Liste showSecondItem={true} />, document.getElementById("app"));
+    </script>
+</body>
+
+</html>

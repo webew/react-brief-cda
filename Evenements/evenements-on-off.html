@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Playground</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <script type="text/babel">
+
+        const App = () => {
+            return (
+                <React.Fragment>
+                    <OnOff />
+                </React.Fragment>
+            );
+        }
+
+        class OnOff extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = { on: true };
+            }
+
+            toggleButton = () => {
+                this.setState({ on: !this.state.on });
+            }
+
+            render() {
+                return (
+                    <button onClick={this.toggleButton}>
+                        {this.state.on ? "ON" : "OFF"}
+                    </button>
+                );
+            }
+        }
+
+        ReactDOM.render(<App />, document.getElementById("app"));
+
+    </script>
+</body>
+
+</html>
