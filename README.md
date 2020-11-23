@@ -76,6 +76,17 @@ TP Counter (suite)
 
 ## Jour 3 (React Native)
 
+### Pré-requis
+
+
+
 ### Matin
 
+1. Créer une app
+2. Intégrer une navigation
+3. Intégrer un formulaire
+4. Persistance
+
 ### Après-midi
+
+TP Photo + Géolocalisation
