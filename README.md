@@ -78,7 +78,7 @@ TP Counter (suite)
 
 ### Pré-requis
 
-
+Connaître les bases de React.
 
 ### Matin
 
