@@ -72,7 +72,13 @@ Exemples commentés.
 
 ### Après-midi
 
-TP Counter (suite)
+Un site d'e-commerce avec React.
+
+1. Créer la maquette
+2. Identifier les composants
+3. Modélisation + api
+4. Développement
+5. Gestion de l'authentification
 
 ## Jour 3 (React Native)
 
