@@ -72,7 +72,7 @@ Exemples commentés.
 
 ### Après-midi
 
-Un site d'e-commerce avec React.
+Un site d'e-commerce avec React (démarrage).
 
 1. Créer la maquette
 2. Identifier les composants
